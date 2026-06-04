@@ -1369,7 +1369,7 @@ function calcNutrition() {
   const intervals = Math.floor(hours * 60 / intervalMin);
   const kcalPerInterval = Math.round(totalKcal / intervals);
   let planH = '';
-  for (let i = 0; i < ls), 8); i++) {
+  for (let i = 0; i < Math.min(intervals, 8); i++) {
     const km = Math.round((dist / intervals) * (i + 1));
     const t = Math.round(intervalMin * (i + 1));
     const th = Math.floor(t/60), tm = t % 60;
