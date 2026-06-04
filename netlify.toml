@@ -1,0 +1,6 @@
+# Proxy via Netlify Function (reenvía Authorization correctamente)
+[[redirects]]
+  from = "/api/strava/*"
+  to = "/.netlify/functions/strava/:splat"
+  status = 200
+  force = true

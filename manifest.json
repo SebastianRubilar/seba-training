@@ -1,0 +1,28 @@
+{
+  "name": "Seba Training Hub",
+  "short_name": "Training Hub",
+  "description": "Strava, brevet, PF MacLab, nutrición y métricas de entrenamiento",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "health", "fitness"],
+  "lang": "es",
+  "dir": "ltr"
+}
